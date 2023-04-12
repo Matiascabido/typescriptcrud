@@ -1,0 +1,21 @@
+version: '3.9'
+
+services:
+  typeapp:  
+    image: node
+    container_name: typenode
+    build: .
+    ports:
+      - 3002:3002
+    environment:
+      PORT: 3002
+      DB_URI: 'mongodb://mongotypedb/type-scrypt-crud'
+      JWT_SECRET: 'secret.somenumber.1'
+    command: node app.js
+    depends_on:
+      - db
+  db:
+    image: mongo
+    container_name: mongotypedb
+    ports:
+      - 27017:27017

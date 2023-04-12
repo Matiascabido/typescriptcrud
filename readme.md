@@ -36,12 +36,15 @@ Rutas
 
 Para poder ejecutar el proyecto con Docker
 
+> Ejecutar comando npm run build\
+
+> cp .\docker-compose.yml  .\dist\
+> cp .\Dockerfil  .\dist\
+
 > cd .\dist\
 
 > docker-compose up --build
 
-En caso de quere realizar un nuevo build, se recomienda previo a la eleiminacion, conservar  y 
-luego de realizado el nuevo build, copiar nuevamente los archivos a la carpeta y levantar el proyecto.\
-los archivos
+En caso de quere realizar un nuevo build, se recomienda conservar los archivos
 - docker-compose
 - Dockerfile
