@@ -1,0 +1,197 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Crud-test",
+    "dateExported": "2023-04-12T22:18:14.474Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "10de7169-be92-424b-a96f-dce4197d50a3",
+            "colId": "7c5df638-e7be-4b2d-baca-a73e94f74768",
+            "containerId": "",
+            "name": "GET CARS",
+            "url": "http://localhost:3002/car",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-04-12T21:41:48.868Z",
+            "modified": "2023-04-12T21:41:48.868Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "71266cec-14d4-4d83-9ee9-192252505825",
+            "colId": "7c5df638-e7be-4b2d-baca-a73e94f74768",
+            "containerId": "",
+            "name": "GET A CAR",
+            "url": "http://localhost:3002/car/6437272c12a281cfd333a2a0",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-04-12T21:41:57.575Z",
+            "modified": "2023-04-12T21:49:12.015Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Porsh\",\n  \"color\": \"green\",\n  \"gas\": \"gasolina\",\n  \"year\": 2010,\n  \"description\": \"Fancy Car\",\n  \"price\": 1000000\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1ecd0de0-1f41-483c-b5c7-2691a4dd35c6",
+            "colId": "7c5df638-e7be-4b2d-baca-a73e94f74768",
+            "containerId": "",
+            "name": "CREATE A CAR",
+            "url": "http://localhost:3002/car",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-04-12T21:42:04.164Z",
+            "modified": "2023-04-12T21:48:28.147Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Porge\",\n  \"color\": \"greene\",\n  \"gas\": \"electric\",\n  \"year\": 2011,\n  \"description\": \"Fancy Car\",\n  \"price\": 1000000\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImVscGFwYWRvQGVsYmF0aWNhbm8uY29tIiwiaWF0IjoxNjgxMzM2MDcyLCJleHAiOjE2ODEzMzk2NzJ9.SrjA9cbXMTg1_rSB7-jPGp1eF_Kyv8ZyuVqOzrR4G_I"
+            },
+            "tests": []
+        },
+        {
+            "_id": "e592e1ca-6f3d-4326-a1a7-5382887045b2",
+            "colId": "7c5df638-e7be-4b2d-baca-a73e94f74768",
+            "containerId": "",
+            "name": "UPDATE A CAR",
+            "url": "http://localhost:3002/car/6437272c12a281cfd333a2a0",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-04-12T21:42:10.303Z",
+            "modified": "2023-04-12T21:50:02.481Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Porsh\",\n  \"color\": \"green\",\n  \"gas\": \"gasolina\",\n  \"year\": 2010,\n  \"description\": \"Fancy Car\",\n  \"price\": 1000000\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImVscGFwYWRvQGVsYmF0aWNhbm8uY29tIiwiaWF0IjoxNjgxMzM2MDcyLCJleHAiOjE2ODEzMzk2NzJ9.SrjA9cbXMTg1_rSB7-jPGp1eF_Kyv8ZyuVqOzrR4G_I"
+            },
+            "tests": []
+        },
+        {
+            "_id": "4986830d-9c78-4a9f-8d2a-a677185e8d82",
+            "colId": "7c5df638-e7be-4b2d-baca-a73e94f74768",
+            "containerId": "",
+            "name": "DELETE A CAR",
+            "url": "http://localhost:3002/car/6437272c12a281cfd333a2a0",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-04-12T21:42:16.369Z",
+            "modified": "2023-04-12T21:50:20.974Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImVscGFwYWRvQGVsYmF0aWNhbm8uY29tIiwiaWF0IjoxNjgxMzM2MDcyLCJleHAiOjE2ODEzMzk2NzJ9.SrjA9cbXMTg1_rSB7-jPGp1eF_Kyv8ZyuVqOzrR4G_I"
+            },
+            "tests": []
+        },
+        {
+            "_id": "f5e926e0-93f4-4470-a632-11abe4b765ab",
+            "colId": "7c5df638-e7be-4b2d-baca-a73e94f74768",
+            "containerId": "",
+            "name": "CREATE USER",
+            "url": "http://localhost:3002/auth/register",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-04-12T21:42:38.488Z",
+            "modified": "2023-04-12T21:42:38.488Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"marcos\",\n  \"password\": \"123123\",\n  \"email\": \"elpapado@elbaticano.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2e74e6bc-d014-4c60-9d98-c33d4bb05d4d",
+            "colId": "7c5df638-e7be-4b2d-baca-a73e94f74768",
+            "containerId": "",
+            "name": "LOGIN",
+            "url": "http://localhost:3002/auth/login",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2023-04-12T21:42:41.650Z",
+            "modified": "2023-04-12T21:42:41.650Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"password\": \"123123\",\n  \"email\": \"elpapado@elbaticano.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d2da22b9-c9a3-4616-8567-14312d69cf28",
+            "colId": "7c5df638-e7be-4b2d-baca-a73e94f74768",
+            "containerId": "",
+            "name": "UPLOAD FILE",
+            "url": "http://localhost:3002/upload",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2023-04-12T21:42:55.618Z",
+            "modified": "2023-04-12T21:57:02.209Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [],
+                "files": [
+                    {
+                        "name": "myfile",
+                        "value": "c:\\Users\\DaleQueMeCago\\Desktop\\IMG\\wallhaven-rrq9km_3840x2160.png"
+                    }
+                ]
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImVscGFwYWRvQGVsYmF0aWNhbm8uY29tIiwiaWF0IjoxNjgxMzM2MDcyLCJleHAiOjE2ODEzMzk2NzJ9.SrjA9cbXMTg1_rSB7-jPGp1eF_Kyv8ZyuVqOzrR4G_I"
+            },
+            "tests": []
+        },
+        {
+            "_id": "db377bec-3f2e-4043-a4db-e80e4038cc4b",
+            "colId": "7c5df638-e7be-4b2d-baca-a73e94f74768",
+            "containerId": "",
+            "name": "PRIVATE URL",
+            "url": "http://localhost:3002/order",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2023-04-12T21:42:59.223Z",
+            "modified": "2023-04-12T21:42:59.223Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer ",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImVscGFwYWRvQGVsYmF0aWNhbm8uY29tIiwiaWF0IjoxNjgxMzM0NTQ1LCJleHAiOjE2ODEzMzgxNDV9.4nQoeyNJwovAjyl5Icf38TW_bh35lV5jVndgkmazeh4"
+            },
+            "tests": []
+        }
+    ]
+}
