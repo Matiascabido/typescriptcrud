@@ -5,7 +5,7 @@ Se debe tener instalado de manera global
 > Node\
 > TypeScript\
 > ts-node\
-> nodemon\
+> nodemon
 
 Dependencias instaladas
 
@@ -15,7 +15,7 @@ Dependencias instaladas
 > multer       // Carar archivos a la app\
 > mongoose     // Orm para conexion a la db\
 > bcryptjs     // Encriptado de contraseñas\
-> jsonwebtoken // token para rastreo de sesion\
+> jsonwebtoken // token para rastreo de sesion
 
 Dependencias de desarrollo -D
 
@@ -25,7 +25,7 @@ Dependencias de desarrollo -D
 > @types/multer\
 > @types/mongoose\
 > @types/bcryptjs\
-> @types/jsonwebtoken\
+> @types/jsonwebtoken
 
 Diseño propuesto [MVC]
 
@@ -36,7 +36,7 @@ Rutas
 
 Para poder ejecutar el proyecto con Docker
 
-> Ejecutar comando npm run build\
+> Ejecutar comando npm run build
 
 > cp .\docker-compose.yml  .\dist\
 > cp .\Dockerfil  .\dist\
