@@ -12,7 +12,6 @@ const isJwtExist = (req: RequestExtend, res: Response, next: NextFunction) => {
     */ 
     const jwt = userJwt.split(' ').pop()
     const isValidToken = verifyToken(`${jwt}`) as { id: String } // Se espera que el jwt, sea siempre un string
-    console.log('isValidToken :>> ', isValidToken);
     if (!isValidToken) {
       res.status(401)
       res.send('SESSION_INVALID')

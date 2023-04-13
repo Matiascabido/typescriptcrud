@@ -6,22 +6,29 @@ import { User } from "../contracts/user.interface";
  */
 const UserScheme = new Schema<User>(
   {
-    name: {
-      type: String,
-      required: true
-    },
-    password: {
-      type: String,
-      required: true
-    },
     email: {
       type: String,
       required: true,
       unique: true
     },
-    description: {
+    password: {
       type: String,
-      default: "Descripcion por defecto"
+      required: true
+    },
+    name: {
+      type: String,
+      required: true
+    },
+    lastName: {
+      type: String,
+      required: true,
+    },
+    address: {
+      type: String,
+      required: true,
+    },
+    avatar: {
+      type: String,
     }
   },
   {

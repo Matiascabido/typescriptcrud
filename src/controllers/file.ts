@@ -7,8 +7,6 @@ import { Storage } from "../contracts/storage.interface";
 const getFile = async (req: RequestExtend, res: Response) => {
   try {
     const { user, file } = req;
-    console.log(file);
-    //const response = await uploadFile()
     const data: Storage = {
       fileName: `${file?.filename}`,
       path: `${file?.path}`,
