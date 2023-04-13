@@ -1,4 +1,4 @@
-import OrderModel from "../models/item";
+import OrderModel from "../models/car";
 
 const getOrders = async (id: string) => {
   const response = await OrderModel.find({})

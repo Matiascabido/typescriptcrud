@@ -26,7 +26,6 @@ const createCar = async ({ body }: Request, res: Response) => {
     const resItem = await insertCar(body);
     res.send(resItem)
   } catch (e) {
-    console.log(e);
     handlerHttp(res, "ERROR_CREATE_ITEM", e)
   }
 }

@@ -1,28 +1,28 @@
 import { Car } from "../contracts/car.interface";
-import ItemModel from "../models/item";
+import CarModel from "../models/car";
 
 const getCar = async (id: string) => {
-  const response = await ItemModel.find({_id: id})
+  const response = await CarModel.find({_id: id})
   return response;
 };
 
 const getCars = async () => {
-  const response = await ItemModel.find({})
+  const response = await CarModel.find({})
   return response;
 };
 
 const insertCar = async (item: Car) => {
-  const response = await ItemModel.create(item)
+  const response = await CarModel.create(item)
   return response;
 };
 
 const updateCar = async (id:string, item: Car) => {
-  const response = await ItemModel.findByIdAndUpdate({ _id: id}, item, { new: true})
+  const response = await CarModel.findByIdAndUpdate({ _id: id}, item, { new: true})
   return response;
 };
 
 const deleteCar = async (id: string) => {
-  const response = await ItemModel.findByIdAndRemove({ _id: id })
+  const response = await CarModel.findByIdAndRemove({ _id: id })
   return response;
 };
 
