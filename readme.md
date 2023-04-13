@@ -46,19 +46,11 @@ Para poder ejecutar el proyecto con Docker
 
 Para poder ejecutar el proyecto sin Docker 
 
-> Ejecutar una imagen de Mongo, ya sea en un container u otro entorno
-> Cargar la variable de entorno con la DB_URI correspondiente
-> ejecutar el comando npm run dev
+> Ejecutar una imagen de Mongo, ya sea en un container u otro entorno\
+> Cargar la variable de entorno con la DB_URI correspondiente\
+> Ejecutar el comando npm run dev
 
 En caso de quere realizar un nuevo build, se recomienda previo a la eleiminacion, conservar los archivos 
 - docker-compose
 - Dockerfile
 Para que luego de realizado el nuevo build, solo haya que copiar nuevamente los archivos a la carpeta y levantar el proyecto.
-
-
-> Create a Node API with Typescript. 
-> Connect the Node API to MongoDB using Mongoose (desirable models in typescript).
-> We need to develop three endpoints behind a basic authentication (username and password).
-1 Create a user with name, last name, address, and profile picture (this should be a file).
-2 Retrieve users.
-3 Update user.
