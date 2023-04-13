@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "Crud-test",
-    "dateExported": "2023-04-12T22:18:14.474Z",
+    "dateExported": "2023-04-13T01:44:23.932Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -190,6 +190,37 @@
             "auth": {
                 "type": "bearer",
                 "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImVscGFwYWRvQGVsYmF0aWNhbm8uY29tIiwiaWF0IjoxNjgxMzM0NTQ1LCJleHAiOjE2ODEzMzgxNDV9.4nQoeyNJwovAjyl5Icf38TW_bh35lV5jVndgkmazeh4"
+            },
+            "tests": []
+        },
+        {
+            "_id": "2f568e4f-d9a5-4d32-9bac-9586af92be43",
+            "colId": "7c5df638-e7be-4b2d-baca-a73e94f74768",
+            "containerId": "",
+            "name": "UPDATE AVATAR",
+            "url": "http://localhost:3002/auth/update/6436ec8c8e0c48fa154eb7fb",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2023-04-13T01:44:11.967Z",
+            "modified": "2023-04-13T01:44:11.967Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "elpapado@elbaticano.com",
+                        "isDisabled": true
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "avatar",
+                        "value": "c:\\Users\\DaleQueMeCago\\Desktop\\IMG\\1610555413_1.jpg"
+                    }
+                ]
             },
             "tests": []
         }
