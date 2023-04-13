@@ -44,6 +44,12 @@ Para poder ejecutar el proyecto con Docker
 > cd .\dist\
 > docker-compose up --build
 
+Para poder ejecutar el proyecto sin Docker 
+
+> Ejecutar una imagen de Mongo, ya sea en un container u otro entorno
+> Cargar la variable de entorno con la DB_URI correspondiente
+> ejecutar el comando npm run dev
+
 En caso de quere realizar un nuevo build, se recomienda previo a la eleiminacion, conservar los archivos 
 - docker-compose
 - Dockerfile
